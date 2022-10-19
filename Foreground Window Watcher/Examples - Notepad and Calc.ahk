@@ -9,7 +9,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 		ActiveRules := new ForegroundWindowWatcher()
 		ActiveRules.Start()
 		ActiveRules.AddRule("Untitled - Notepad","Notepad")
-		ActiveRules.AddRule("Calculator",,"Calculator")
+		ActiveRules.AddRule("Calculator","Calculator")
 		
 		return ; EOAES
 		
